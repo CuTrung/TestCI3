@@ -16,6 +16,7 @@ class TestCI {
 	@Test
 	void test() {
 		assertEquals(5, new com.trungcu.core.Test().a(5));
+		assertEquals(7, new com.trungcu.core.Test().a(6));
 	}
 
 }
